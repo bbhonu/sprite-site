@@ -1,0 +1,412 @@
+.icon-sprite, .icon-beat, .icon-bolt, .icon-bomb, .icon-dia, .icon-fb, .icon-github, .icon-in, .icon-insta, .icon-key, .icon-lemon, .icon-mail, .icon-moon, .icon-music, .icon-rocket, .icon-sc, .icon-snap, .icon-star, .icon-target, .icon-twitter, .icon-wand {
+  background-image: url('../img/icon-s5a67c60756.png');
+  background-repeat: no-repeat;
+}
+
+.icon-beat {
+  background-position: 0 -60px;
+}
+.icon-beat:hover, .icon-beat.beat-hover {
+  background-position: 0 0;
+}
+
+.icon-bolt {
+  background-position: 0 -180px;
+}
+.icon-bolt:hover, .icon-bolt.bolt-hover {
+  background-position: 0 -120px;
+}
+
+.icon-bomb {
+  background-position: 0 -300px;
+}
+.icon-bomb:hover, .icon-bomb.bomb-hover {
+  background-position: 0 -240px;
+}
+
+.icon-dia {
+  background-position: 0 -420px;
+}
+.icon-dia:hover, .icon-dia.dia-hover {
+  background-position: 0 -360px;
+}
+
+.icon-fb {
+  background-position: 0 -540px;
+}
+.icon-fb:hover, .icon-fb.fb-hover {
+  background-position: 0 -480px;
+}
+
+.icon-github {
+  background-position: 0 -660px;
+}
+.icon-github:hover, .icon-github.github-hover {
+  background-position: 0 -600px;
+}
+
+.icon-in {
+  background-position: 0 -780px;
+}
+.icon-in:hover, .icon-in.in-hover {
+  background-position: 0 -720px;
+}
+
+.icon-insta {
+  background-position: 0 -900px;
+}
+.icon-insta:hover, .icon-insta.insta-hover {
+  background-position: 0 -840px;
+}
+
+.icon-key {
+  background-position: 0 -1020px;
+}
+.icon-key:hover, .icon-key.key-hover {
+  background-position: 0 -960px;
+}
+
+.icon-lemon {
+  background-position: 0 -1140px;
+}
+.icon-lemon:hover, .icon-lemon.lemon-hover {
+  background-position: 0 -1080px;
+}
+
+.icon-mail {
+  background-position: 0 -1260px;
+}
+.icon-mail:hover, .icon-mail.mail-hover {
+  background-position: 0 -1200px;
+}
+
+.icon-moon {
+  background-position: 0 -1380px;
+}
+.icon-moon:hover, .icon-moon.moon-hover {
+  background-position: 0 -1320px;
+}
+
+.icon-music {
+  background-position: 0 -1500px;
+}
+.icon-music:hover, .icon-music.music-hover {
+  background-position: 0 -1440px;
+}
+
+.icon-rocket {
+  background-position: 0 -1620px;
+}
+.icon-rocket:hover, .icon-rocket.rocket-hover {
+  background-position: 0 -1560px;
+}
+
+.icon-sc {
+  background-position: 0 -1740px;
+}
+.icon-sc:hover, .icon-sc.sc-hover {
+  background-position: 0 -1680px;
+}
+
+.icon-snap {
+  background-position: 0 -1860px;
+}
+.icon-snap:hover, .icon-snap.snap-hover {
+  background-position: 0 -1800px;
+}
+
+.icon-star {
+  background-position: 0 -1980px;
+}
+.icon-star:hover, .icon-star.star-hover {
+  background-position: 0 -1920px;
+}
+
+.icon-target {
+  background-position: 0 -2100px;
+}
+.icon-target:hover, .icon-target.target-hover {
+  background-position: 0 -2040px;
+}
+
+.icon-twitter {
+  background-position: 0 -2220px;
+}
+.icon-twitter:hover, .icon-twitter.twitter-hover {
+  background-position: 0 -2160px;
+}
+
+.icon-wand {
+  background-position: 0 -2340px;
+}
+.icon-wand:hover, .icon-wand.wand-hover {
+  background-position: 0 -2280px;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "butlerstencil";
+  src: url(../fonts/butler_black_stencil.otf);
+}
+@font-face {
+  font-family: "apercu pro";
+  src: url(../fonts/apercu_regular_pro.otf);
+}
+.icon-rocket {
+  margin-top: 110px;
+  margin-left: 100px;
+}
+
+.icon-wand {
+  margin-left: 20px;
+  margin-top: 45px;
+}
+
+.icon-bolt {
+  margin-left: 150px;
+  margin-top: 10px;
+}
+
+.icon-music {
+  margin-left: 40px;
+}
+
+.icon-bomb {
+  margin-left: 130px;
+  margin-top: 30px;
+}
+
+.icon-moon {
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.icon-fb {
+  margin-left: -260px;
+  margin-top: 15px;
+}
+
+.icon-twitter {
+  margin-left: -110px;
+  margin-top: 0px;
+}
+
+.icon-insta {
+  margin-left: -200px;
+  margin-top: 0px;
+}
+
+.icon-snap {
+  margin-left: -20px;
+  margin-top: 0px;
+}
+
+.icon-in {
+  margin-left: 45px;
+  margin-top: 0px;
+}
+
+.icon-github {
+  margin-left: 80px;
+  margin-top: 0px;
+}
+
+.icon-sc {
+  margin-left: 110px;
+  margin-top: 0px;
+}
+
+.icon-mail {
+  margin-left: 130px;
+  margin-top: 0px;
+}
+
+.icon-dia {
+  margin-left: -100px;
+  margin-top: 90px;
+}
+
+.icon-target {
+  margin-left: -160px;
+  margin-top: 30px;
+}
+
+.icon-star {
+  margin-left: -70px;
+  margin-top: 0px;
+}
+
+.icon-lemon {
+  margin-left: -135px;
+  margin-top: 35px;
+}
+
+.icon-key {
+  margin-left: -60px;
+  margin-top: 45px;
+}
+
+.icon-beat {
+  margin-left: -95px;
+  margin-top: 50px;
+}
+
+.sprite {
+  color: #acfdae;
+}
+
+a:link {
+  text-decoration: none;
+  color: #e6e6ff;
+  font-weight: lighter;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgba(204, 248, 225, 0.5);
+}
+
+.line {
+  width: 200px;
+  height: 1px;
+  background: #ccf8e1;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: -20px;
+}
+
+h1 {
+  font-family: 'butlerstencil';
+  text-align: center;
+  font-size: 56px;
+  color: white;
+  font-weight: bolder;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(240, 230, 60, 0.8);
+}
+
+i {
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+}
+
+section.socialmedia {
+  margin-top: 2px;
+  position: relative;
+  bottom: 0px;
+  text-align: center;
+  display: block;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+section.socialmedia ul li {
+  margin-left: 14px;
+  margin-right: 14px;
+  padding: 2px;
+}
+
+footer {
+  margin-left: 760px;
+  margin-right: 250px;
+  background-color: rgba(240, 230, 60, 0.8);
+  font-family: 'apercu pro';
+  font-weight: lighter;
+  font-size: 10px;
+  color: #646464;
+  text-align: center;
+  padding: 3px;
+  margin-top: -108px;
+}
+
+section.centerme {
+  color: #b35586;
+  text-align: justify;
+  margin-left: 250px;
+  margin-right: 250px;
+  font-family: 'apercu pro';
+  padding-left: 32px;
+  padding-right: 32px;
+  background-color: #c1b9d0;
+  font-size: 25px;
+  z-index: 1;
+  line-height: 42px;
+  padding-bottom: 20px;
+  margin-top: -20px;
+  padding-top: 10px;
+  margin-bottom: 25px;
+}
+section.centerme p {
+  margin-bottom: 30px;
+}
+
+section.others {
+  float: right;
+  margin-left: 30px;
+  padding-bottom: 100px;
+  background-color: 255, 255, 255, 1;
+}
+section.others ul {
+  margin-top: 0px;
+  margin-bottom: -10px;
+}
+section.others ul li {
+  display: block;
+  margin-bottom: -20px;
+  margin-top: -10px;
+}
+
+section.others2 {
+  float: left;
+  padding-bottom: 100px;
+  background-color: 255, 255, 255, 1;
+}
+section.others2 ul {
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+section.others2 ul li {
+  display: block;
+  margin-bottom: -20px;
+  margin-top: -10px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+ul li a {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+ul li a span {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}

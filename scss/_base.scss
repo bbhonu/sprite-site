@@ -1,0 +1,363 @@
+@import 'icon/*.png';
+@include all-icon-sprites;
+
+*,
+*:before,
+*:after {
+	margin:0;
+	padding:0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+} 
+
+@font-face {
+	font-family:"butlerstencil";
+	src: url(../fonts/butler_black_stencil.otf);
+}
+
+@font-face {
+	font-family:"apercu pro";
+	src: url(../fonts/apercu_regular_pro.otf);
+}
+// left side icons
+.icon-rocket {
+	margin-top: 110px;
+	margin-left: 100px;
+}
+
+.icon-wand {
+	margin-left: 20px;
+	margin-top: 45px;
+}
+
+.icon-bolt {
+	margin-left: 150px;
+	margin-top: 10px;
+}
+
+.icon-music {
+	margin-left: 40px;
+}
+
+.icon-bomb { 
+	margin-left: 130px;
+	margin-top: 30px;
+}
+
+.icon-moon {
+	margin-left: 60px;
+	margin-top: 30px;
+}
+
+// social media icons 
+.icon-fb {
+	margin-left: -260px;
+	margin-top: 15px;
+}
+
+.icon-twitter {
+	margin-left: -110px;
+	margin-top: 0px;
+}
+
+.icon-insta {
+	margin-left: -200px;
+	margin-top: 0px;
+}
+
+.icon-snap {
+	margin-left: -20px;
+	margin-top: 0px;
+}
+
+.icon-in {
+	margin-left: 45px;
+	margin-top: 0px;
+}
+
+.icon-github {
+	margin-left: 80px;
+	margin-top: 0px;
+}
+
+.icon-sc {
+	margin-left: 110px;
+	margin-top: 0px;
+}
+
+.icon-mail {
+	margin-left: 130px;
+	margin-top: 0px;
+}
+
+// right icons
+
+.icon-dia {
+	margin-left: -100px;
+	margin-top: 90px;
+}
+
+.icon-target {
+	margin-left: -160px;
+	margin-top: 30px;
+}
+
+.icon-star {
+	margin-left: -70px;
+	margin-top: 0px;
+}
+
+.icon-lemon {
+	margin-left: -135px;
+	margin-top: 35px;
+}
+
+.icon-key {
+	margin-left: -60px;
+	margin-top: 45px;
+}
+
+.icon-beat {
+	margin-left: -95px;
+	margin-top: 50px;
+}
+
+
+
+
+.sprite {
+	color: rgba(172,253,174,1);
+}
+
+a:link{text-decoration: none;
+color: rgba(230,230,255,1);
+font-weight: lighter;}
+
+a:visited{text-decoration: none;}
+
+a:hover{
+	text-decoration: none;
+	color:rgba(255,0,0,1);
+
+
+}
+
+a:active{text-decoration: none;}
+
+
+
+body{
+
+	background-color: rgba(204,248,225,.5);
+
+}
+
+.line {
+
+
+	width: 200px;
+	height: 1px;
+	background: rgba(204,248,225,1);
+	margin: 0 auto;
+	margin-bottom: 10px;
+	margin-top: -20px;
+
+
+}
+
+h1 {
+font-family: 'butlerstencil';
+text-align: center;
+font-size: 56px;
+color: rgba(255,255,255,1);
+font-weight: bolder;
+padding-top: 10px;
+margin-bottom: 20px;
+padding-left: 10px;
+padding-right: 10px;
+background-color: rgba(240,230,60,.8);
+
+}
+ 
+i {
+	height: 60px;
+	width: 60px;
+	display: inline-block;
+
+}  
+
+
+
+section.socialmedia {
+margin-top: 2px;
+position: relative;
+bottom: 0px;
+// background-color: rgba(255,255,255,1);
+// border: solid;
+// border-width: 1px;
+// border-color: rgba(0,0,0,.3);
+// padding-left: 10px;
+// padding-right: 30px;
+
+text-align: center;
+display: block;
+
+padding-right: 100px;
+padding-left: 100px;
+
+
+
+
+
+ul{ 
+
+
+
+
+
+li {
+// background-color: rgba(30,30,30,.7);
+
+margin-left: 14px;
+margin-right: 14px;
+// border: solid 2px rgba(255,255,255,1);
+padding: 2px;
+
+
+
+
+}//end li
+
+}//end ul
+
+} //end socialmedia
+
+footer {
+margin-left: 760px;
+	margin-right: 250px;
+	background-color: rgba(240,230,60,.8);
+	font-family: 'apercu pro';
+	font-weight:lighter;
+	font-size: 10px;
+	color: rgba(100,100,100,1);
+	text-align: center;
+	padding: 3px;
+	margin-top: -108px;
+
+
+}
+section.centerme {
+	color: rgba(179,85,134,1);
+	text-align: justify;
+	margin-left: 250px;
+	margin-right: 250px;
+
+	font-family: 'apercu pro';
+	padding-left: 32px;
+	padding-right: 32px;
+	background-color: rgba(193,185,208,1);
+	font-size: 25px;
+	z-index: 1;
+	line-height: 42px;
+	padding-bottom: 20px;
+	margin-top: -20px;
+	padding-top: 10px;
+	margin-bottom: 25px;
+
+
+
+p {
+	margin-bottom: 30px;
+
+
+
+}//end p
+
+}//end centerme
+
+
+section.others {
+float: right;
+margin-left: 30px;
+padding-bottom: 100px;
+background-color: (255,255,255,1);
+
+ul{ margin-top: 0px;
+	margin-bottom: -10px;
+
+
+
+
+li {
+display: block;
+margin-bottom: -20px;
+margin-top: -10px;
+
+
+
+}//end li
+
+}//end ul
+
+} //end others2
+
+section.others2 {
+float: left;
+padding-bottom: 100px;
+background-color: (255,255,255,1);
+
+ul{ margin-top: -10px;
+	margin-bottom: -10px;
+
+
+
+li {
+display: block;
+margin-bottom: -20px;
+margin-top: -10px;
+
+
+
+}//end li
+
+}//end ul
+
+} //end others2
+
+
+
+ul { 
+
+	li {
+		list-style:none;
+		display: inline-block;
+		padding: 10px;
+		
+
+		a{
+			display:inline-block;
+			width:60px;
+			height:60px;
+
+
+
+
+			span {
+				position: absolute;
+				top: -9999em;
+				left:-9999em;
+
+			}//span
+
+
+
+		}//a
+
+
+
+
+	} //li
+
+}//ul
+
